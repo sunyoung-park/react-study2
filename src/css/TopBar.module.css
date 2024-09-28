@@ -1,0 +1,39 @@
+.topbar {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom, #1c1c1c, #1f1f1f);  
+    display: flex;
+    justify-content: center; 
+    align-items: center;          
+  }
+  
+ /* container */
+.topbar__container {
+    width: 1110px;           
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+  }
+  
+  /* logo */
+  .logo {
+    max-width: 130px;   
+    height: auto;       
+    cursor: pointer;    
+  }
+  
+  /* 텍스트 버튼 스타일 */
+  .button {
+    background: none;
+    border: none;
+    color: #ff14a1;
+    font-weight: 500;        
+    font-size: 16px;     
+    cursor: pointer;     
+    padding: 10px 20px;  
+    transition: opacity 0.3s ease;  
+  }
+  
+  .button:hover {
+    opacity: 0.8;        
+  }
