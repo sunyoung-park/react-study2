@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import {useParams} from "react-router-dom";
-import Movie from "../components/Movie";
+import MovieDetail from "../components/MovieDetail";
+import TopBar from "../components/TopBar";
+import MoveBanner from "../components/MoveBanner";
 
 function Detail() {
     
@@ -18,25 +20,33 @@ function Detail() {
         getMovie();
     }, [id]);
     console.log(movie);
-    return (
-        <div>
-            {loading ? (
-                <h1>Loading...</h1>
+    return (<div>
+        {loading ? (
+            <h1>Loading...</h1>
             ) : ( 
-            <div>
-                {movie && (
-                    <Movie 
-                        key={movie.id}
-                        id={movie.id}
-                        coverImg={movie.medium_cover_image} 
-                        title={movie.title} 
-                        description_intro={movie.description_intro}
-                        genres={movie.genres}
-                    />
-                )}
-            </div>
+                <div>
+                    <TopBar />
+                    <div>
+                        {movie && (
+                        <MovieDetail 
+                            key={movie.id}
+                            id={movie.id}
+                            coverImg={movie.medium_cover_image} 
+                            title_long={movie.title_long} 
+                            description_intro={movie.description_intro}
+                            genres={movie.genres}
+                            rating={movie.rating}
+                            runtime={movie.runtime}
+                            synopsis={movie.synopsis}
+                            background_image={movie.background_image}                        />
+                    )}
+                    </div>
+                    <MoveBanner />
+                </div>
+                
             )}
-        </div>
+    
+    </div>
     );
 }
 

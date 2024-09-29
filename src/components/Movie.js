@@ -1,23 +1,24 @@
 import PropTypes from "prop-types";
 import {Link} from "react-router-dom";
+import styles from '../css/Movie.module.css'; 
 
-function Movie({id, coverImg, title, title_long, summary, genres, description_intro}) {
+function Movie({id, coverImg, title, title_long, summary, genres, description_intro, rating, runtime}) {
     return (
-        <div>
-            <img src={coverImg} alt={title} />
-            <h2>
-              <Link to={`/movie/${id}`}>{title_long}</Link>
-            </h2>
-            <p>{summary}</p>
-            <p>{description_intro}</p>
-            <ul>
-              {genres && genres.length > 0 ? (
-                genres.map((g) => <li key={g}>{g}</li>)
-              ) : (
-                <li></li>
-              )}
-      </ul>
-          </div>
+      <Link to={`/movie/${id}`}>
+      <div className={styles.movie}>
+          <img src={coverImg} alt={title} />
+          <h2>{title_long}</h2>            
+          <p>{runtime} min ⭐ {rating}</p>
+          
+          <ul>
+            {genres && genres.length > 0 ? (
+              genres.slice(0, 3).map((g) => <li key={g}>{g}</li>) 
+            ) : (
+              <li></li>
+            )}
+          </ul>
+      </div>
+      </Link>
     );
 }
 
@@ -29,6 +30,8 @@ Movie.propTypes = {
     summary: PropTypes.string.isRequired,
     description_intro: PropTypes.string.isRequired,
     genres: PropTypes.arrayOf(PropTypes.string).isRequired,
+    rating: PropTypes.number.isRequired,
+    runtime:PropTypes.number.isRequired
 }
 
 export default Movie;
