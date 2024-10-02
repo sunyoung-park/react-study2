@@ -4,7 +4,7 @@
     display: flex;        
     flex-wrap: wrap;  
     justify-content: space-between; 
-    gap: 20px; 
+    gap: 10px; 
 }
 
 /* 각각의 영화 카드 */
@@ -60,13 +60,14 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .movies__container {
         width: 96%;            
     }
     
     .movie {
-        width: 220px;
-        height: 480px;
+        width: 180px;
+        height: 450px;
     }
+
 }

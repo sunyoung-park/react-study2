@@ -6,90 +6,90 @@ function MoveBanner() {
             <div className={styles['slide-track']}>
                 {/* 첫 번째 슬라이드 세트 */}
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
 
                 {/* 두 번째 슬라이드 세트 (복제) */}
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
                 <div className={styles.slide}>
-                    <img src="/logo2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="" />
                 </div>
             </div>
         </div>
